@@ -1,0 +1,331 @@
+/*Makes sure the footer always stay bottom*/
+html{
+    scroll-behavior: smooth !IMPORTANT;
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+   
+}
+main{
+    flex: 1;
+}
+
+/*Makes sure the footer always stay bottom*/
+
+img{
+    max-width: 100%;
+}
+
+.row{
+    display: flex;
+}
+
+.new-line{
+    display: block;
+    
+}
+
+#theme-color, .main-header{
+    background-color: rgb(3, 38, 78);
+    color: #fff;
+}
+
+.main-header{
+    background-color: #fff;
+    box-shadow: 0px 10px #d8d8d8;
+}
+
+
+body{
+    background-color: #f0f2f5;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+h1{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 20px;
+}
+ul li{
+    line-height: 1.5em;
+}
+
+.skills-section .section-title, .skills-section .headline{
+background-color: rgb(3, 38, 78);
+box-shadow: 2px 4px #000;
+color: #fff;
+padding: 10px 5px;;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+
+
+
+.skills-section .web-title{
+    margin-right: 10px;
+}
+.skills-section .soft-title{
+    margin-left: 10px;
+}
+.skills-section .software-section ul li{
+    margin-left: 10px;
+}
+
+
+
+
+.main-header{
+    padding-top: 20px;
+    height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main-menu ul{
+    justify-content: center;
+   
+}
+
+.main-menu ul li a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+.main-menu ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(3, 38, 78);
+    
+}
+
+.main-menu ul .active{
+border-bottom: 5px solid rgb(0, 171, 251);
+
+}
+
+.main-menu ul li a{
+    color: #000;
+    
+}
+
+.main-menu ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(77, 77, 77);
+    
+    
+}
+
+/*Content Sidebar*/
+.side-bar{
+    width: 20%;
+    background-color:rgb(0 4 51);
+    margin-left: 20px;
+    color: #fff;
+    padding: 10px;
+   line-height: 20px;
+   max-height: 500px;
+
+}
+
+.side-bar .profile-picture{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.side-bar img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.side-bar svg{
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+.side-bar h3{
+    font-size: 20px;
+}
+.side-bar p {
+    font-size: 16px;
+}
+.side-bar a{
+    color: #fff;
+    display: block;
+    line-height: 30px;
+}
+
+.side-bar a:hover{
+    text-decoration: none;
+    color: rgb(0, 171, 251);
+}
+
+
+.main-wrapper .main-section{
+    width: 80%;
+}
+
+
+/*Content body*/
+
+.main-wrapper{
+    box-sizing: border-box;
+    min-height: 500px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.main-wrapper .main-section .page-title{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 30px 0px;
+}
+.main-section .about-me p{
+line-height: 2em;
+}
+
+
+.skills-section .software-section p{
+    margin-left: 10px;
+}
+
+.skills-section .web-section ul li, .skills-section .software-section ul li{
+   
+    list-style: inside;
+    list-style-type: ' ★ ';
+}
+
+.skills-section .split-section .web-section, .skills-section .split-section .software-section{
+   width: 50%;
+}
+.skills-section .web-container .row, .skills-section .software-section .row{
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+.skills-section .web-container .row p{
+    width: 35%;
+}
+
+
+.skills-section .web-container .skills-line, .skills-section .software-section .skills-line{
+   width: 100%;
+   background-color: #000;
+   margin: 0px 10px;
+    
+}
+
+.web-container .skills-line .progress-bar, .skills-section .software-section .skills-line .progress-bar{
+    width: 80%;
+    background-color: rgb(0, 171, 251);
+}
+.skills-section .web-container .skills-line,.web-container .skills-line .progress-bar, .skills-section .software-section .skills-line ,.skills-section .software-section .skills-line .progress-bar{
+    height: 5px;
+}
+
+/*Progress bar line*/
+
+.skills-section .skills-line .html{
+    width: 100%;
+}
+
+
+.skills-section .skills-line .css{
+    width: 90%;
+}
+
+
+.skills-section .skills-line .js{
+    width: 30%;
+}
+
+
+.skills-section .skills-line .php{
+    width: 60%;
+}
+
+
+
+.skills-section .skills-line .sql{
+    width: 65%;
+}
+
+.skills-section .skills-line .mysql{
+    width: 70%;
+}
+
+.skills-section .software-section .skills-line .csharp{
+    width: 30%;
+}
+.skills-section .software-section .skills-line .git{
+    width: 20%;
+}
+
+
+
+/*portfolio-wrapper*/
+.main-wrapper .portfolio-wrapper{
+    border: 2px solid #000;
+    box-sizing: border-box;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+.main-wrapper .portfolio-wrapper div{
+    min-height: 200px;
+    border: 2px solid grey;
+    box-sizing: border-box;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    
+    width: 50%;
+}
+
+.main-wrapper .portfolio-wrapper section{
+    min-height: 200px;
+}
+
+.main-wrapper .portfolio-wrapper div h3{
+    color: #fff;
+    margin-left: 10px;
+}
+.main-wrapper .portfolio-wrapper div .tag{
+    color: #fff;
+    background-color: grey;
+    padding: 3px 8px;
+    margin-left: 10px;
+}
+
+.main-wrapper .portfolio-wrapper div:hover{
+    border: 2px solid rgb(0, 171, 251);
+}
+
+/*Footer section*/
+.main-footer{
+    text-align: center;
+    background-color: rgb(223, 222, 222);
+    margin-top: 30px;
+    padding: 20px 0px;
+}
+.main-footer .copyrights{
+    text-align: center;
+}
+
+
