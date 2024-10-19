@@ -180,6 +180,8 @@ border-bottom: 5px solid rgb(0, 171, 251);
     color: #fff;
     display: block;
     line-height: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .side-bar a:hover{
