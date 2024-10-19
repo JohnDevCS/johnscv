@@ -58,6 +58,10 @@
        margin-top: 0px; 
     }
 
+    .main-wrapper .portfolio-wrapper div .tag{
+        position: relative;
+        top: 5px;
+    }
 
     
 }
