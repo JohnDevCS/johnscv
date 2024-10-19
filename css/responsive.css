@@ -1,0 +1,88 @@
+@media screen and (max-width: 600px){
+    
+    .main-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 0px;
+    }
+    .main-wrapper .main-section{
+        width: 100%;
+    }
+
+    .main-section .skills-section .split-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-section .skills-section .split-section .web-section, .main-section .skills-section .split-section .software-section{
+        width: 100%;
+    }
+    .main-section .skills-section .web-title{
+        margin-right: 0px;
+    }
+
+
+    .main-section .skills-section .software-section .soft-title{
+        margin: 10px 0px;
+    }
+    .main-section .skills-section .software-section p{
+        margin: 0px;
+    }
+
+    .side-bar{
+        width: 100%;
+        margin: 30px 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-height: initial;
+    }
+    .side-bar > div{
+        padding: 20px;
+        width: 60%;
+        margin: 0 auto;
+    
+    }
+    .side-bar .profile-picture{
+        width: 100%;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+    .side-bar > div div{
+        margin: 15px 0px;
+    }
+    
+
+    .main-footer{
+       margin-top: 0px; 
+    }
+
+
+    
+}
+@media screen and (max-width: 768px){
+
+
+}
+@media screen and (min-width: 1024px){
+
+    body{
+        zoom: 1.1;
+    }
+}
+@media screen and (min-width: 1200px){
+.main-footer{
+    margin-top: 5%;
+}
+
+}
+
+
+@media screen and (min-width: 1440px){
+   
+        body{
+            zoom: 1.2;
+        }
+    
+}
