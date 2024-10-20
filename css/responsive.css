@@ -63,7 +63,7 @@
         top: 5px;
     }
 
-    .main-wrapper .portfolio-wrapper div{
+    .main-wrapper .portfolio-wrapper .portfolio-box{
         min-height: initial;
         width: 100%;
         margin: 5px 0px;
