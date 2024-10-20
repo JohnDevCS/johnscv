@@ -306,7 +306,7 @@ line-height: 2em;
 
 
 }
-.main-wrapper .portfolio-wrapper div{
+.main-wrapper .portfolio-wrapper .portfolio-box{
     min-height: 200px;
     border: 2px solid grey;
     box-sizing: border-box;
@@ -315,6 +315,9 @@ line-height: 2em;
     flex-direction: column;
     
     width: 50%;
+}
+.main-wrapper .portfolio-wrapper .portfolio-box:hover{
+    border: 0px;
 }
 
 .main-wrapper .portfolio-wrapper section{
