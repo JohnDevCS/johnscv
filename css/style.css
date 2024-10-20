@@ -316,6 +316,9 @@ line-height: 2em;
     
     width: 50%;
 }
+.main-wrapper .portfolio-wrapper .portfolio-box a{
+text-decoration: none;
+}
 .main-wrapper .portfolio-wrapper .portfolio-box:hover{
     border: 0px;
 }
