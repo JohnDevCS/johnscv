@@ -63,6 +63,15 @@
         top: 5px;
     }
 
+    .main-wrapper .portfolio-wrapper div{
+        min-height: initial;
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .main-wrapper .portfolio-wrapper section{
+        min-height: initial;
+    }
+
     
 }
 @media screen and (min-width: 601px){
